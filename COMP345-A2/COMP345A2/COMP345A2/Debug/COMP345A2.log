@@ -1,0 +1,11 @@
+﻿  Map.cpp
+c:\users\ziad\desktop\comp345a2\comp345a2\builder.h(16): error C3646: 'map': unknown override specifier
+c:\users\ziad\desktop\comp345a2\comp345a2\builder.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\ziad\desktop\comp345a2\comp345a2\map.cpp(117): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Driver.cpp
+c:\users\ziad\desktop\comp345a2\comp345a2\builder.h(16): error C3646: 'map': unknown override specifier
+c:\users\ziad\desktop\comp345a2\comp345a2\builder.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Builder.cpp
+c:\users\ziad\desktop\comp345a2\comp345a2\builder.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\ziad\desktop\comp345a2\comp345a2\builder.cpp(17): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
