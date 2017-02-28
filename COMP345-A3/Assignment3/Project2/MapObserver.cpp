@@ -1,0 +1,28 @@
+#include <iostream>
+#include "MapObserver.h"
+#include "Subject.h"
+#include "Map.h"
+using namespace std;
+
+MapObserver::MapObserver(Map* s)
+{
+	subject = s;
+	subject->attach(this);
+}
+
+MapObserver::~MapObserver()
+{
+	subject->detach(this);
+}
+
+void MapObserver::update(Subject* changed)
+{
+	if (changed == subject)
+		draw();
+	logMessage();
+}
+
+void MapObserver::draw()
+{
+	cout << subject->showMap();
+}
